@@ -1,67 +1,33 @@
 body{
     background-color: #bdc3c7;
 }
-h1{
-    color: #9b59b6;
-}
-h2{
-    color: orange;
-}
-li{
-    color: #0f0f85e7;
-}
-p{
+.h1{
     background-color: yellow;
+    color: black;
+    text-align: center;
+    font-weight: bold;
 }
-input{
-    border: 3px solid red;
+.row{
+    
+    width: 100%;
 }
-.hello{
-    background-color: white;
+.col_1{
+    width: ;
+    border-left : green 2px solid  ;
+    padding-left: 15px;
+    
 }
-#special{
-    border: 2px solid rgb(0, 0, 255);
-}
-div p{
-    font-size: 25px;
-}
+.top{
+    vertical-align: text-top;
+    width: 16%;
 
-input[type^="text"]{
-    background-color: gray;
 }
-div+div+div p {
-    background-color: pink;
+.left{
+    vertical-align: top;
+    float: right;
+    border: green 2px dashed;
+    padding: 5px;
 }
-div+div+div p+p{
-    border: 5px solid white;
-}
-div+div+div>em{
-    background-color: white;
-    font-size: 20px;
-}
-
-/*Bonus*/
-
-li>input:checked{
-    margin-left: 50px;
-}
-
-label{
-    text-transform: uppercase;
-}
-
-#special::first-letter{
-    color: green;
-    font-size: 100px;
-}
-
-h1:hover{
-    color: rgb(0, 0, 255);
-}
-div+div+div+div a:visited{
-    color: gray;
-}
-
 
 footer a{
     margin: 20px;
