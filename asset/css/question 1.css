@@ -1,5 +1,5 @@
 body{
-    background-color: #bdc3c7;
+    background-color: white;
 }
 .h1{
     background-color: yellow;
@@ -8,11 +8,9 @@ body{
     font-weight: bold;
 }
 .row{
-    
     width: 100%;
 }
 .col_1{
-    width: ;
     border-left : green 2px solid  ;
     padding-left: 15px;
     
@@ -23,7 +21,7 @@ body{
 
 }
 .left{
-    vertical-align: top;
+    vertical-align: text-top;
     float: right;
     border: green 2px dashed;
     padding: 5px;
