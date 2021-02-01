@@ -1,12 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    /* This checks if you are using a laptop or phone with max-width of 1000px if so the background color becomes gray.*/
-    @media only screen and (max-width : 1000px) { 
-        body {
-            background-color: gray;
-        }
-    }
 }
 body{
     background-color: skyblue;
@@ -238,4 +232,70 @@ p{
 }
 h4{
     text-align: center;
+}
+.footer-area{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    width: 96%;
+    height: 220px;
+    background-color: black;
+    
+}
+/* .area{
+    border: 1.2px solid #FAFAFA;
+    width: 16%;
+    height: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #FAFAFA;
+    
+} */
+.area1{
+    height: 20px; 
+    display: flex; 
+    align-items: flex-end;
+    justify-content: flex-end;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+.area2{
+    height: 20px; 
+    display: flex; 
+    align-items: flex-end;
+    justify-content: center;
+    color: #ffffff;
+}
+.area3{
+    height: 80px; 
+    display: flex; 
+    align-items: flex-end;
+    justify-content: start;
+    grid-row-start: 3 ;
+    grid-row-end: 6;
+    color: #ffffff;
+}
+.area4{
+    height: 40px; 
+    display: flex; 
+    align-items: flex-end;
+    justify-content: flex-end;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    color: #ffffff;
+    
+}
+.area5{
+    border-left: 2px solid grey;
+    margin: 5px;
+    height: 100px; 
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    display: flex; 
+    color: #ffffff;
 }
